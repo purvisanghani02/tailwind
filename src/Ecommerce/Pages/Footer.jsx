@@ -1,13 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  ChevronDown,
-  ChevronUp,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Twitter,
-  Youtube,
-} from "lucide-react";
+import { ChevronDown, ChevronUp } from "lucide-react";
 import React, { useState } from "react";
 const Footer = () => {
   const [usefulLinksOpen, setUsefulLinksOpen] = useState(false);
